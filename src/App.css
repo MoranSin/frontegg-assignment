@@ -1,42 +1,51 @@
  #root {
-  max-width: 1280px;
+  width: 1590px;
+  height: 800px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: rgb(255, 231, 164);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.loginHeader{
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.fronteggLogo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 50px;
+  right: 200px;
 }
 
-.card {
-  padding: 2em;
+.settings{
+  width:30px;
+  height:30px;
 }
 
-.read-the-docs {
-  color: #888;
+.buttonsContainer{
+  display:flex;
+  width:100%;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
 }
