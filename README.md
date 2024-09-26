@@ -68,8 +68,6 @@ Ensure that you have the following installed on your system:
 
    ```bash
    npm run dev
-   # or
-   yarn start
    ```
 
 2. Open your browser and go to `http://localhost:5173` (or the appropriate port for your application).
